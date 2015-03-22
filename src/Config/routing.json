@@ -1,0 +1,10 @@
+{
+  "homeTwig":"Controller\\Home\\ControllerHomeTwig",
+  "verUsuariosSmarty":"Controller\\Home\\ControllerUser",
+  "agregarUsuariosSmarty":"Controller\\Home\\ControllerUser",
+  "verUsuariosTwig":"Controller\\Home\\ControllerTwigUser",
+  "agregarUsuariosTwig":"Controller\\Home\\ControllerTwigUser",
+  "homeSmarty":"Controller\\Home\\ControllerHomeSmarty",
+  "homeJson":"Controller\\Home\\ControllerJson"
+
+}

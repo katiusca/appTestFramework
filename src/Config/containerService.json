@@ -1,0 +1,25 @@
+{
+  "userService": {
+    "class": "Services\\UserService",
+    "references":{
+      "dbConnection" : "dbConnection",
+      "templateMostrar" : "templateMostrar"
+    }
+  },
+
+  "dbConnection": {
+    "class": "Mpwarfw\\Component\\DbConnect"
+  },
+
+  "templateMostrar": {
+    "class": "Templates\\TemplateSmartyShowUser;"
+  },
+
+  "index": {
+    "class": "Services\\UserService",
+    "references":{
+      "dbConnection" : "dbConnection"
+    }
+  }
+
+}
